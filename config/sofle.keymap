@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-#include "keys_ry.h"
+#include "keys_ru.h"
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/ext_power.h>
