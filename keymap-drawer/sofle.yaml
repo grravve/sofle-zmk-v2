@@ -1,7 +1,68 @@
 layout: {zmk_keyboard: sofle}
 layers:
-  default: ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', DELETE, ESC, Q, W, E, R, T, Y, U, I, O, P, BSPC, TAB, A, S, D, F, G, H, J, K, L, ;, '''', LEFT
-      WIN, Z, X, C, V, B, MUTE, '', N, M, ',', ., /, RSHFT, CLCK, LALT, LCTRL, raise, SPACE, RET, lower, RCTRL, RALT, RGUI]
+  en: ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', DELETE, ESC, Q, W, E, R, T, Y, U, I, O, P, BSPC, TAB, A, S, D, F, G, H, J, K, L, ;, '''', LEFT WIN,
+    Z, X, C, V, B, MUTE, '', N, M, ',', ., /, RSHFT, LEFT SHIFT, LALT, LCTRL, raise, SPACE, RET, lower, RCTRL, RALT, RGUI]
+  ru:
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD GRAVE ACCENT AND TILDE))
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD Q))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD W))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD E))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD R))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD T))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD Y))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD U))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD I))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD O))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD P))
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD A))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD S))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD D))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD F))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD G))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD H))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD J))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD K))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD L))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD SEMICOLON AND COLON))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD APOSTROPHE AND QUOTE))
+  - {t: ▽, type: trans}
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD Z))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD X))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD C))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD V))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD B))
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD N))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD M))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD COMMA AND LESS THAN))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD PERIOD AND GREATER THAN))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD LEFT BRACKET AND LEFT BRACE))
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   lower:
   - '&studio_unlock'
   - F1
