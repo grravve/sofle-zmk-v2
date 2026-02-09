@@ -24,7 +24,7 @@
 
         adjust_layer {
             if-layers = <7 6>;
-            then-layer = <8>;
+            then-layer = <3>;
         };
     };
 
@@ -156,15 +156,14 @@
         };
 
         sym_en {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
-            >;
-
             label = "sym_en";
+            bindings = <
+&none   &none      &trans                &trans                    &trans                   &trans                           &trans       &trans            &trans          &trans             &trans    &trans
+&trans  &kp TILDE  &kp LESS_THAN         &kp EQUAL                 &kp GREATER_THAN         &kp AMPERSAND                    &kp PERCENT  &kp LEFT_BRACKET  &kp UNDERSCORE  &kp RIGHT_BRACKET  &trans    &trans
+&trans  &kp EXCL   &kp LEFT_PARENTHESIS  &kp_tap KP_MINUS KP_PLUS  &kp RIGHT_PARENTHESIS    &kp DOLLAR                       &kp AT_SIGN  &kp LEFT_BRACE    &kp SEMI        &kp RIGHT_BRACE    &kp PIPE  &trans
+&trans  &trans     &kp RU_ASTERISK       &kp COLON                 &kp_tap BACKSLASH SLASH  &kp GRAVE      &trans    &trans  &kp CARET    &kp HASH          &kp RU_COMMA    &kp RU_DOT         &trans    &trans
+                   &trans                &trans                    &trans                   &trans         &trans    &trans  &trans       &trans            &trans          &trans
+            >;
         };
 
         fn {
