@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: sofle}
 layers:
-  en: [LEFT WIN, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', DELETE, ESC, Q, W, E, R, T, Y, U, I, O, P, BSPC, TAB, A, S, D, F, G, H, J, K, L, ;, '''', '`',
-    Z, X, C, V, B, MUTE, '', N, M, ',', ., /, RSHFT, LEFT SHIFT, LALT, LCTRL, raise, SPACE, RET, lower, RCTRL, RALT, RGUI]
+  en: [LEFT WIN, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', DELETE, ESC, Q, W, E, R, T, Y, U, I, O, P, BSPC, TAB, A, S, D, F, G, H, J, K, L, ;, '''', LEFT
+      SHIFT, Z, X, C, V, B, MUTE, '', N, M, ',', ., /, RSHFT, '`', LALT, LCTRL, raise, SPACE, RET, lower, RCTRL, RALT, '&layer_ru']
   lower:
   - '&studio_unlock'
   - F1
@@ -245,7 +245,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&layer_en'
   sym_ru:
   - ''
   - ''
