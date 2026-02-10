@@ -36,7 +36,7 @@
         layer_en: layer_en {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&off 1>, <&macro_tap>, <&kp LC(LS(NUMBER_1))>;
+            bindings = <&off 1>, <&macro_tap>, <&kp LS(LC(NUMBER_1))>;
 
             label = "LAYER_EN";
         };
