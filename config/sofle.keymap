@@ -180,8 +180,8 @@
             label = "sym_ru";
         };
 
-        sym_en {
-            label = "sym_en";
+        sym_eng {
+            label = "sym_eng";
             bindings = <
 &none   &none      &trans                &trans                    &trans                   &trans                           &trans       &trans            &trans          &trans             &trans    &trans
 &trans  &kp TILDE  &kp LESS_THAN         &kp EQUAL                 &kp GREATER_THAN         &kp AMPERSAND                    &kp PERCENT  &kp LEFT_BRACKET  &kp UNDERSCORE  &kp RIGHT_BRACKET  &trans    &trans
