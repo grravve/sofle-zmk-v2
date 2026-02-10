@@ -183,11 +183,11 @@
         sym_eng {
             label = "sym_eng";
             bindings = <
-&none   &none      &trans                &trans                    &trans                   &trans                           &trans       &trans            &trans          &trans             &trans    &trans
-&trans  &kp TILDE  &kp LESS_THAN         &kp EQUAL                 &kp GREATER_THAN         &kp AMPERSAND                    &kp PERCENT  &kp LEFT_BRACKET  &kp UNDERSCORE  &kp RIGHT_BRACKET  &trans    &trans
-&trans  &kp EXCL   &kp LEFT_PARENTHESIS  &kp_tap KP_MINUS KP_PLUS  &kp RIGHT_PARENTHESIS    &kp DOLLAR                       &kp AT_SIGN  &kp LEFT_BRACE    &kp SEMI        &kp RIGHT_BRACE    &kp PIPE  &trans
-&trans  &trans     &kp RU_ASTERISK       &kp COLON                 &kp_tap BACKSLASH SLASH  &kp GRAVE      &trans    &trans  &kp CARET    &kp HASH          &kp RU_COMMA    &kp RU_DOT         &trans    &trans
-                   &trans                &trans                    &trans                   &trans         &trans    &trans  &trans       &trans            &trans          &trans
+&none  &none      &none                 &none                     &none                    &none                            &none        &none             &none           &none              &none     &none
+&none  &kp TILDE  &kp LESS_THAN         &kp EQUAL                 &kp GREATER_THAN         &kp AMPERSAND                    &kp PERCENT  &kp LEFT_BRACKET  &kp UNDERSCORE  &kp RIGHT_BRACKET  &none     &none
+&none  &kp EXCL   &kp LEFT_PARENTHESIS  &kp_tap KP_MINUS KP_PLUS  &kp RIGHT_PARENTHESIS    &kp DOLLAR                       &kp AT_SIGN  &kp LEFT_BRACE    &kp SEMI        &kp RIGHT_BRACE    &kp PIPE  &none
+&none  &none      &kp RU_ASTERISK       &kp COLON                 &kp_tap BACKSLASH SLASH  &kp GRAVE      &none     &none   &kp CARET    &kp HASH          &kp RU_COMMA    &kp RU_DOT         &none     &none
+                  &trans                &trans                    &trans                   &trans         &trans    &trans  &trans       &trans            &trans          &trans
             >;
         };
 
