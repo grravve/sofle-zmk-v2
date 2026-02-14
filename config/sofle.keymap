@@ -20,7 +20,14 @@
 / {
     // Activate ADJUST layer by pressing raise and lower
 
-    conditional_layers { compatible = "zmk,conditional-layers"; };
+    conditional_layers {
+        compatible = "zmk,conditional-layers";
+
+        fn {
+            if-layers = <2 4>;
+            then-layer = <5>;
+        };
+    };
 
     macros {
         layer_en: layer_en {
