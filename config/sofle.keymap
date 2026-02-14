@@ -102,8 +102,8 @@
             >;
         };
 
-        sym_eng {
-            label = "sym_eng";
+        sym_en {
+            label = "sym_en";
             bindings = <
 &none &kp TILDE &kp LESS_THAN &kp EQUAL &kp GREATER_THAN &kp AMPERSAND     &kp PERCENT &kp LBKT &kp UNDERSCORE &kp RBKT &none &none
 &none &kp EXCL  &kp LPAR      &kp MINUS &kp RPAR         &kp DOLLAR        &kp AT_SIGN &kp LBRC &kp SEMI       &kp RBRC &kp PIPE &none
