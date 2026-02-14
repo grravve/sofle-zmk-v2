@@ -57,7 +57,7 @@ layers:
   - {t: '&layer_ru', h: nav}
   - SPACE
   - RET
-  - sym_en
+  - sym_ru
   - RCTRL
   - RALT
   - '~'
@@ -240,11 +240,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  sym_en:
+  sym_eng:
   - ''
   - ''
   - ''
@@ -301,7 +301,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
