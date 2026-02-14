@@ -10,10 +10,12 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/rgb.h>
 
-#define BASE 0
-#define LOWER 1
-#define RAISE 2
-#define ADJUST 3
+#define EN 0
+#define RU 1
+#define NAV 2
+#define SYM_RU 3
+#define SYM_ENG 4
+#define FN 5
 
 / {
     // Activate ADJUST layer by pressing raise and lower
