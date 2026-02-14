@@ -358,8 +358,8 @@ path.combo {
 </g>
 <g transform="translate(580, 274) rotate(-22.5)" class="key keypos-56">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#sym_en">
-<text x="0" y="0" class="key tap layer-activator">sym_en</text>
+<a href="#s_en">
+<text x="0" y="0" class="key tap layer-activator">s_en</text>
 </a></g>
 <g transform="translate(644, 259)" class="key keypos-57">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -936,8 +936,8 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(30, 1193)" class="layer-sym_ru">
-<text x="0" y="28" class="label" id="sym_ru">sym_ru:</text>
+<g transform="translate(30, 1193)" class="layer-s_ru">
+<text x="0" y="28" class="label" id="s_ru">s_ru:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 63)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -1213,8 +1213,8 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(30, 1590)" class="layer-sym_en">
-<text x="0" y="28" class="label" id="sym_en">sym_en:</text>
+<g transform="translate(30, 1590)" class="layer-s_en">
+<text x="0" y="28" class="label" id="s_en">s_en:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 63)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
