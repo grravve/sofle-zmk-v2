@@ -137,7 +137,7 @@
 &kp ESC         &kp Q   &kp W      &kp E     &kp R      &kp T                               &kp Y   &kp U      &kp I      &kp O      &kp P     &kp BSPC
 &kp TAB         &kp A   &kp S      &kp D     &kp F      &kp G                               &kp H   &kp J      &kp K      &kp L      &kp SEMI  &kp SQT
 &kp LEFT_SHIFT  &kp Z   &kp X      &kp C     &kp V      &kp B        &kp C_MUTE    &none    &kp N   &kp M      &kp COMMA  &kp DOT    &kp FSLH  &kp RSHFT
-                        &layer_en  &kp LALT  &kp LCTRL  &lru_mo 2 0  &kp SPACE     &kp RET  &mo 3   &kp RCTRL  &kp RALT   &kp TILDE
+                        &layer_en  &kp LALT  &kp LCTRL  &lru_mo 2 0  &kp SPACE     &kp RET  &mo 4   &kp RCTRL  &kp RALT   &kp TILDE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -188,14 +188,14 @@
             label = "sym_ru";
         };
 
-        sym_eng {
-            label = "sym_eng";
+        sym_en {
+            label = "sym_en";
             bindings = <
 &none  &none      &none                 &none                     &none                    &none                            &none        &none             &none           &none              &none     &none
 &none  &kp TILDE  &kp LESS_THAN         &kp EQUAL                 &kp GREATER_THAN         &kp AMPERSAND                    &kp PERCENT  &kp LEFT_BRACKET  &kp UNDERSCORE  &kp RIGHT_BRACKET  &none     &none
 &none  &kp EXCL   &kp LEFT_PARENTHESIS  &kp_tap KP_MINUS KP_PLUS  &kp RIGHT_PARENTHESIS    &kp DOLLAR                       &kp AT_SIGN  &kp LEFT_BRACE    &kp SEMI        &kp RIGHT_BRACE    &kp PIPE  &none
 &none  &none      &kp RU_ASTERISK       &kp COLON                 &kp_tap BACKSLASH SLASH  &kp GRAVE      &none     &none   &kp CARET    &kp HASH          &kp RU_COMMA    &kp RU_DOT         &none     &none
-                  &trans                &trans                    &trans                   &trans         &trans    &trans  &trans       &trans            &trans          &trans
+                  &trans                &trans                    &trans                   &trans         &trans    &trans  &none        &trans            &trans          &trans
             >;
         };
 
