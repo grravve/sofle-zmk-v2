@@ -118,7 +118,7 @@ layers:
   - {t: '&layer_en', h: nav}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - s_ru
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&layer_en'
@@ -240,7 +240,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
