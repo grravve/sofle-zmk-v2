@@ -206,12 +206,12 @@ layers:
   - '&en LEFT_BRACKET'
   - '&en UNDERSCORE'
   - '&en RIGHT_BRACKET'
-  - {t: ▽, type: trans}
+  - '-'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&en EXCL'
   - '&en LEFT_PARENTHESIS'
-  - {t: KP PLUS, h: KP MINUS}
+  - +
   - '&en RIGHT_PARENTHESIS'
   - '&en DOLLAR'
   - '&en AT_SIGN'
