@@ -202,9 +202,9 @@ layers:
   - '='
   - '&en GREATER_THAN'
   - '&'
-  - '%'
+  - '&en PERCENT'
   - '&en LEFT_BRACKET'
-  - _
+  - '&en UNDERSCORE'
   - '&en RIGHT_BRACKET'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -215,9 +215,9 @@ layers:
   - '&en RIGHT_PARENTHESIS'
   - '&en DOLLAR'
   - '&en AT_SIGN'
-  - '{'
-  - ;
-  - '}'
+  - '&en LEFT_BRACE'
+  - '&en SEMI'
+  - '&en RIGHT_BRACE'
   - '|'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -285,7 +285,7 @@ layers:
   - ''
   - (LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 8 AND ASTERISK)))
   - ':'
-  - {t: /, h: \}
+  - \
   - '`'
   - ''
   - ''
@@ -293,7 +293,7 @@ layers:
   - '#'
   - (LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD SLASH AND QUESTION MARK)))
   - ((ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD SLASH AND QUESTION MARK)))
-  - ''
+  - {t: ▽, type: trans}
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
