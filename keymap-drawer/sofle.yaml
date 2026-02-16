@@ -121,7 +121,7 @@ layers:
   - s_ru
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&layer_en'
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD LEFT BRACKET AND LEFT BRACE))
   nav:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -142,16 +142,16 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - PG UP
-  - {t: ▽, type: trans}
+  - Ctl+LEFT
   - UP
-  - {t: ▽, type: trans}
+  - Ctl+RIGHT ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LALT
+  - LEFT SHIFT
+  - LEFT ALT
   - LCTRL
-  - LSHFT
-  - {t: ▽, type: trans}
   - CLCK
   - PG DN
   - LEFT
@@ -159,11 +159,11 @@ layers:
   - RIGHT
   - DEL
   - BSPC
-  - REDO
-  - UNDO
-  - CUT
-  - COPY
-  - PASTE
+  - Ctl+Y
+  - Ctl+Z
+  - Ctl+X
+  - Ctl+V
+  - Ctl+C
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -267,12 +267,12 @@ layers:
   - '['
   - _
   - ']'
-  - ''
+  - '-'
   - ''
   - ''
   - '!'
   - (
-  - {t: KP PLUS, h: KP MINUS}
+  - +
   - )
   - $
   - '@'
