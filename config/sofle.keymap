@@ -187,7 +187,7 @@
 &trans  &trans     &trans                &trans     &trans                 &trans                           &trans       &trans            &trans          &trans             &trans     &trans
 &trans  &en TILDE  &en LESS_THAN         &kp EQUAL  &en GREATER_THAN       &kp AMPERSAND                    &en PERCENT  &en LEFT_BRACKET  &en UNDERSCORE  &en RIGHT_BRACKET  &kp MINUS  &trans
 &trans  &en EXCL   &en LEFT_PARENTHESIS  &kp PLUS   &en RIGHT_PARENTHESIS  &en DOLLAR                       &en AT_SIGN  &en LEFT_BRACE    &en SEMI        &en RIGHT_BRACE    &kp PIPE   &trans
-&trans  &trans     &kp RU_ASTERISK       &kp COLON  &kp BACKSLASH          &kp GRAVE      &trans    &trans  &en CARET    &en HASH          &kp RU_COMMA    &kp RU_DOT         &kp SLASH  &trans
+&trans  &kp QMARK  &kp RU_ASTERISK       &kp COLON  &kp BACKSLASH          &kp GRAVE      &trans    &trans  &en CARET    &en HASH          &kp RU_COMMA    &kp RU_DOT         &kp SLASH  &trans
                    &trans                &trans     &trans                 &trans         &trans    &trans  &trans       &trans            &trans          &trans
             >;
 
@@ -200,7 +200,7 @@
 &none  &none      &none                 &none      &none                  &none                            &none        &none             &none           &none              &none      &none
 &none  &kp TILDE  &kp LESS_THAN         &kp EQUAL  &kp GREATER_THAN       &kp AMPERSAND                    &kp PERCENT  &kp LEFT_BRACKET  &kp UNDERSCORE  &kp RIGHT_BRACKET  &kp MINUS  &none
 &none  &kp EXCL   &kp LEFT_PARENTHESIS  &kp PLUS   &kp RIGHT_PARENTHESIS  &kp DOLLAR                       &kp AT_SIGN  &kp LEFT_BRACE    &kp SEMI        &kp RIGHT_BRACE    &kp PIPE   &none
-&none  &none      &kp RU_ASTERISK       &kp COLON  &kp BACKSLASH          &kp GRAVE      &none     &none   &kp CARET    &kp HASH          &kp RU_COMMA    &kp RU_DOT         &trans     &none
+&none  &kp QMARK  &kp RU_ASTERISK       &kp COLON  &kp BACKSLASH          &kp GRAVE      &none     &none   &kp CARET    &kp HASH          &kp RU_COMMA    &kp RU_DOT         &trans     &none
                   &trans                &trans     &trans                 &trans         &trans    &trans  &none        &trans            &trans          &trans
             >;
         };
