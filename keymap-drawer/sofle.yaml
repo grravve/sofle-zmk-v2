@@ -162,8 +162,8 @@ layers:
   - Ctl+Y
   - Ctl+Z
   - Ctl+X
-  - Ctl+V
   - Ctl+C
+  - Ctl+V
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
