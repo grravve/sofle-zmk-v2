@@ -223,7 +223,7 @@ layers:
   - {t: ▽, type: trans}
   - '?'
   - (LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 8 AND ASTERISK)))
-  - ':'
+  - '&en COLON'
   - \
   - '`'
   - {t: ▽, type: trans}
