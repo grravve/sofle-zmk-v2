@@ -168,7 +168,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - SPACE
   - PAGE DOWN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
