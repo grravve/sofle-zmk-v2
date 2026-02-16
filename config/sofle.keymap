@@ -187,7 +187,7 @@
 &trans  &trans     &trans                &trans     &trans                 &trans                           &trans       &trans            &trans          &trans             &trans     &trans
 &trans  &en TILDE  &en LESS_THAN         &kp EQUAL  &en GREATER_THAN       &kp AMPERSAND                    &en PERCENT  &en LEFT_BRACKET  &en UNDERSCORE  &en RIGHT_BRACKET  &kp MINUS  &trans
 &trans  &en EXCL   &en LEFT_PARENTHESIS  &kp PLUS   &en RIGHT_PARENTHESIS  &en DOLLAR                       &en AT_SIGN  &en LEFT_BRACE    &en SEMI        &en RIGHT_BRACE    &kp PIPE   &trans
-&trans  &kp QMARK  &kp RU_ASTERISK       &kp COLON  &kp BACKSLASH          &kp GRAVE      &trans    &trans  &en CARET    &en HASH          &kp RU_COMMA    &kp RU_DOT         &kp SLASH  &trans
+&trans  &kp QMARK  &kp RU_ASTERISK       &en COLON  &kp BACKSLASH          &kp GRAVE      &trans    &trans  &en CARET    &en HASH          &kp RU_COMMA    &kp RU_DOT         &kp SLASH  &trans
                    &trans                &trans     &trans                 &trans         &trans    &trans  &trans       &trans            &trans          &trans
             >;
 
