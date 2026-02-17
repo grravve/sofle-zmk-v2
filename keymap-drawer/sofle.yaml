@@ -291,8 +291,8 @@ layers:
   - ''
   - ^
   - '#'
-  - (LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD SLASH AND QUESTION MARK)))
-  - ((ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD SLASH AND QUESTION MARK)))
+  - ','
+  - .
   - {t: ▽, type: trans}
   - ''
   - {t: ▽, type: trans}
