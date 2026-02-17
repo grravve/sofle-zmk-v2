@@ -138,8 +138,8 @@ layers:
   - {t: ▽, type: trans}
   - INS
   - PSCRN
-  - CMENU
-  - {t: ▽, type: trans}
+  - Ctl+Sft+[
+  - Ctl+]
   - {t: ▽, type: trans}
   - PG UP
   - Ctl+LEFT
