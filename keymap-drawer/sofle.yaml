@@ -138,7 +138,7 @@ layers:
   - {t: ▽, type: trans}
   - INS
   - PSCRN
-  - Ctl+Sft+[
+  - Ctl+[
   - Ctl+]
   - {t: ▽, type: trans}
   - PG UP
