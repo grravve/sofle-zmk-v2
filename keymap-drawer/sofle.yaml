@@ -62,7 +62,7 @@ layers:
   - RALT
   - '~'
   ru:
-  - {t: ▽, type: trans}
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD RIGHT BRACKET AND RIGHT BRACE))
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -121,7 +121,7 @@ layers:
   - s_ru
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD LEFT BRACKET AND LEFT BRACE))
+  - {t: ▽, type: trans}
   nav:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -138,9 +138,9 @@ layers:
   - {t: ▽, type: trans}
   - INS
   - PSCRN
-  - Sft+[
+  - Ctl+[
   - Ctl+]
-  - {t: ▽, type: trans}
+  - LEFT WIN
   - PG UP
   - Ctl+LEFT
   - UP
