@@ -225,7 +225,7 @@ layers:
   - (LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 8 AND ASTERISK)))
   - '&en COLON'
   - \
-  - '`'
+  - '&en GRAVE'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&en CARET'
@@ -337,9 +337,9 @@ layers:
   - F9
   - F10
   - RGB BRI
-  - RGB BRD
+  - Gui+Ctl+LEFT ARROW
   - ''
-  - ''
+  - Gui+Ctl+RIGHT ARROW
   - ''
   - ''
   - ''
