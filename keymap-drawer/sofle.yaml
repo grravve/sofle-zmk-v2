@@ -201,7 +201,7 @@ layers:
   - '&en LESS_THAN'
   - '='
   - '&en GREATER_THAN'
-  - '&'
+  - '&en AMPERSAND'
   - '&en PERCENT'
   - '&en LEFT_BRACKET'
   - '&en UNDERSCORE'
@@ -218,10 +218,10 @@ layers:
   - '&en LEFT_BRACE'
   - '&en SEMI'
   - '&en RIGHT_BRACE'
-  - '|'
+  - '&en PIPE'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '?'
+  - '&en QMARK'
   - (LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 8 AND ASTERISK)))
   - '&en COLON'
   - \
@@ -325,9 +325,9 @@ layers:
   - F4
   - F5
   - RGB HUI
-  - RGB HUD
-  - RGB SAI
-  - RGB SAD
+  - HOME
+  - INSERT
+  - END
   - ''
   - ''
   - ''
