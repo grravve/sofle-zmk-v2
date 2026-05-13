@@ -59,7 +59,7 @@ layers:
   - RET
   - s_en
   - RCTRL
-  - RALT
+  - RIGHT ALT
   - '~'
   ru:
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD RIGHT BRACKET AND RIGHT BRACE))
@@ -120,7 +120,7 @@ layers:
   - {t: ▽, type: trans}
   - s_ru
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LEFT ALT
   - {t: ▽, type: trans}
   nav:
   - {t: ▽, type: trans}
