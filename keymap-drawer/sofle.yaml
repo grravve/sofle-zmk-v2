@@ -120,7 +120,7 @@ layers:
   - {t: ▽, type: trans}
   - s_ru
   - {t: ▽, type: trans}
-  - LEFT ALT
+  - '&en RIGHT_ALT'
   - {t: ▽, type: trans}
   nav:
   - {t: ▽, type: trans}
