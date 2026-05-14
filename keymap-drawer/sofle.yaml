@@ -140,7 +140,7 @@ layers:
   - PSCRN
   - Ctl+[
   - Ctl+]
-  - LEFT WIN
+  - CAPS
   - PG UP
   - Ctl+LEFT
   - UP
@@ -152,7 +152,7 @@ layers:
   - LEFT SHIFT
   - LEFT ALT
   - LCTRL
-  - CLCK
+  - LEFT WIN
   - PG DN
   - LEFT
   - DOWN
