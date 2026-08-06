@@ -351,9 +351,9 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
+  - '&mkp MB1'
+  - '&mkp MCLK'
+  - '&mkp RCLK'
   - ''
   - ''
   - {t: ▽, type: trans}
