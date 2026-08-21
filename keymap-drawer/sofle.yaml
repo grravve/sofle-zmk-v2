@@ -147,11 +147,11 @@ layers:
   - Ctl+RIGHT ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - B
+  - {t: ▽, type: trans}
   - LALT
   - LEFT SHIFT
   - LEFT ALT
-  - LCTRL
+  - {t: Ctl+A, h: LCTRL}
   - LEFT WIN
   - PG DN
   - LEFT
