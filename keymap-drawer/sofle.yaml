@@ -147,7 +147,7 @@ layers:
   - Ctl+RIGHT ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - B
   - LALT
   - LEFT SHIFT
   - LEFT ALT
