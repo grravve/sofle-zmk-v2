@@ -151,7 +151,7 @@ layers:
   - LALT
   - LEFT SHIFT
   - LEFT ALT
-  - {t: Ctl+A, h: LCTRL}
+  - {t: Ctl+SPACE, h: LCTRL}
   - LEFT WIN
   - PG DN
   - LEFT
